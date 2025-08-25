@@ -1,0 +1,39 @@
+/* Navigation bar container */
+.navigation {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background: aliceblue;
+  padding: 12px 24px;
+}
+
+/* Links section */
+.link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link > a {
+  padding: 10px 16px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.link > a:hover {
+  background: darkblue;
+}
+
+.social {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social > img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+ 
+}
+
