@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 function Input() {
-    const [val,setval]=useState("ehtesham")
+    const [val, setval] = useState("ehtesham");
+
     return (
         <div>
             <input onChange={(Event) => setval(Event.target.value )} value={ val}type="text" placeholder="enter name" />
