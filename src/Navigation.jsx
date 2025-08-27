@@ -1,4 +1,4 @@
-import "./nav.css";
+import "./Home.css";
 
 function Nav() {
   return (

@@ -14,6 +14,7 @@ function User({ user }) {
       <h2>Age:{user.age}</h2>
       <h2>Qualification:{user.education}</h2>
     </div>
-  );
+    );
+    
 }
 export default User;

@@ -1,45 +1,33 @@
-import Name from "./state";
+import Card from "./Card";
 import Nav from "./Navigation";
-import Input from "./input-value";
-import Controll from "./controlled-component";
-import Loop from "./Loop";
-import User from "./user";
 
 function App() {
-  let users = [
-        {
-            name: "ehtesham",
-            age: 22,
-            education:"BS"
-        },
-        {
-            name: "zamin",
-            age: 28,
-            education:"Phd"
-        },
-        {
-            name: "abbass",
-            age: 32,
-            education:"BS"
-        },
-        {
-            name: "zimal",
-            age: 19,
-            education:"BS"
-        }
-    ]
   return (
     <div>
       <Nav></Nav>
-      <Controll></Controll>
-      <Loop></Loop>
-      {
-        users.map((data) => (
-          <User user={data}></User>
-        ))
-      }
+      <div className="collection">
+        <Card
+          img="https://www.cato.org/sites/cato.org/files/styles/aside_3x/public/2023-11/fast-fashion2.jpeg?itok=72ek8bxI"
+          heading="Hot Saller"
+          btnText="Show More"
+        ></Card>
+        <Card
+          img="https://www.shutterstock.com/image-photo/fashionable-clothes-boutique-store-london-600nw-589577570.jpg"
+          heading="Hot Saller"
+          btnText="Show More"
+        ></Card>
+        <Card
+          img="https://www.permanentstyle.com/wp-content/uploads/2021/04/hang-up-vintage-london-580x464.jpg"
+          heading="Hot Saller"
+          btnText="Show More"
+        ></Card>
+        <Card
+          img="https://images.theconversation.com/files/580726/original/file-20240308-20-2hk7h6.jpg?ixlib=rb-4.1.0&rect=0%2C0%2C5314%2C3545&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+          heading="Hot Saller"
+          btnText="Show More"
+        ></Card>
+      </div>
     </div>
-
   );
 }
 export default App;
