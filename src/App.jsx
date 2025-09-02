@@ -2,6 +2,7 @@ import Card from "./Card";
 import Nav from "./Navigation";
 import styled from "styled-components";
 import Footer from "./Footer";
+import User from "./practice/update object";
 
 function App() {
   let Name = styled.h2`
@@ -15,6 +16,7 @@ function App() {
       <Nav></Nav>
       <main>
         <Name>Our Collections</Name>
+        <User />
         <div className="collection">
           <Card
             img="https://www.cato.org/sites/cato.org/files/styles/aside_3x/public/2023-11/fast-fashion2.jpeg?itok=72ek8bxI"
@@ -38,6 +40,7 @@ function App() {
           ></Card>
         </div>
       </main>
+
       <Footer></Footer>
     </div>
   );
