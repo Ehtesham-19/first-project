@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding-inline: 30px;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

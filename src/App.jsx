@@ -1,9 +1,10 @@
-import Api from "./practice/Api";
+import React from "react";
+import NavBar from "./practice/NavBar";
 
 export default function App() {
   return (
     <div>
-      <Api></Api>
+      <NavBar></NavBar>
     </div>
   );
 }
