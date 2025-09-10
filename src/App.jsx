@@ -5,6 +5,7 @@ export default function App() {
   return (
     <div>
       <NavBar></NavBar>
+      <h2>Ehtesham</h2>
     </div>
   );
 }
