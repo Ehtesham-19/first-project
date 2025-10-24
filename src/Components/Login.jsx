@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import { Mail, Eye, EyeOff, Lock } from "lucide-react";
 import styles from "./Login.module.css";
-import illustration from "../assets/illustration.png";
+// import illustration from "../assets/illustration.png";
 
 function EditorLanding() {
   const [showPassword, setShowPassword] = useState(false);
@@ -73,9 +73,9 @@ function EditorLanding() {
               </div>
 
               {/* Right Image Section */}
-              <div className={styles.image}>
+              {/* <div className={styles.image}>
                 <img src={illustration} alt="Illustration" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

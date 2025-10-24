@@ -1,13 +1,10 @@
-import ForgotPassword from "./Components/ForgotPassword";
-import LinkBankAccount from "./Components/LinkBankAccount";
-import PrivacyPolicy from "./Components/PrivacyPolicy";
+import EditorLanding from "./Components/Login";
+
 
 function App() {
   return (
     <div>
-      <ForgotPassword />
-      <LinkBankAccount />
-      <PrivacyPolicy/>
+      <EditorLanding/>
     </div>
   );
 }
