@@ -1,0 +1,75 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4a6fff;
+  padding: 6px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.backButton:hover {
+  background: #f2f4ff;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.subHeader h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.underline {
+  height: 3px;
+  width: 100px;
+  background: #f4b400;
+  border-radius: 3px;
+}
+
+.content {
+  line-height: 1.6;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}

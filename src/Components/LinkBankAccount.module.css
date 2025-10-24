@@ -1,0 +1,107 @@
+.container {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.iconButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #4a6fff;
+  padding: 5px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.iconButton:hover {
+  background: #f2f4ff;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.accountList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.accountCard {
+  width: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #d8d8d8;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.accountCard h4 {
+  margin: 0 0 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.accountCard p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.active {
+  background: #4a6fff;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.linkButton {
+  border: 1px solid #4a6fff;
+  background: white;
+  color: #4a6fff;
+  padding: 8px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+}
+
+.linkButton:hover {
+  background: #f2f4ff;
+}
+
+.unlink {
+  background: #4a6fff;
+  color: white;
+}
+
+.illustration {
+  margin-top: 40px;
+}
+
+.illustration img {
+  width: 200px;
+}
