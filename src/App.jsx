@@ -1,11 +1,11 @@
-import React from "react";
-import NavBar from "./practice/NavBar";
+import EditorLanding from "./Components/Login";
 
-export default function App() {
+function App() {
   return (
     <div>
-      <NavBar></NavBar>
-      <h2>Ehtesham</h2>
+      <EditorLanding/>
     </div>
   );
 }
+
+export default App;

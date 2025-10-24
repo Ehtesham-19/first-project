@@ -1,0 +1,32 @@
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom"; // ✅ No Router here
+import Showuser from "./practice/Api data handling/Showuser";
+import Adduser from "./practice/Api data handling/Adduser";
+import EditUser from "./practice/Api data handling/EditUser";
+
+function App() {
+  return (
+    <div>
+      {/* Navigation Bar */}
+      <nav style={{ padding: "10px", background: "#f4f4f4" }}>
+        <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
+          <li>
+            <Link to="/showuser">All Users</Link>
+          </li>
+          <li>
+            <Link to="/adduser">Add New User</Link>
+          </li>
+        </ul>
+      </nav>
+
+      {/* Routes */}
+      <Routes>
+        <Route path="/adduser" element={<Adduser></Adduser>} /> {}
+        <Route path="/showuser" element={<Showuser></Showuser>} />
+        <Route path="/edit/:id" element={<EditUser></EditUser>} />
+      </Routes>
+    </div>
+  );
+}
+
+export default App;
