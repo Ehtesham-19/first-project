@@ -1,9 +1,9 @@
-import EditorLanding from "./Components/Login";
+import ForgotPassword from "./Components/ForgotPassword";
 
 function App() {
   return (
     <div>
-      <EditorLanding/>
+      <ForgotPassword />
     </div>
   );
 }
