@@ -1,9 +1,11 @@
-import Module from "./Components/Module";
+import ApplyForm from "./Components/ApplyForm";
+import NovelPopup from "./Components/NovelNameModule";
 
 function App() {
   return (
     <div>
-      <Module />
+      <NovelPopup />
+      <ApplyForm />
     </div>
   );
 }
