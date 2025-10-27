@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
 
       {/* Subtitle */}
       <div className={styles.subHeader}>
-        <h3>Privacy Policy</h3>
+        <h3>Terms And Conditions</h3>
         <div className={styles.underline}></div>
       </div>
 

@@ -1,10 +1,9 @@
-import EditorLanding from "./Components/Login";
-
+import Module from "./Components/Module";
 
 function App() {
   return (
     <div>
-      <EditorLanding/>
+      <Module />
     </div>
   );
 }
