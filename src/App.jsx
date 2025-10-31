@@ -1,11 +1,16 @@
-import ApplyForm from "./Components/ApplyForm";
-import NovelPopup from "./Components/NovelNameModule";
+import NewChatPopup from "./Components/NewChatPopup";
+import GroupChatPopup from "./GroupChatPopup";
+import NewChatInterface from "./SingleChatModal";
+import UserList from "./UserList";
 
 function App() {
   return (
     <div>
-      <NovelPopup />
-      <ApplyForm />
+      <NewChatPopup />
+      <GroupChatPopup />
+      <UserList />
+      <NewChatInterface />
+      <h2>hello</h2>
     </div>
   );
 }
